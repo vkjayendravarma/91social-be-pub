@@ -50,5 +50,7 @@ then run ``` flask run ``` to start the server
 
 ## Running with docker 
 Install docker in your local machine and run the following comands 
-docker build -t socailbe .
-docker run -p 8080:8080 -it socailbe
+
+``` docker build -t socailbe .```
+
+``` docker run -p 8080:8080 -it socailbe```
