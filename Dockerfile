@@ -1,6 +1,4 @@
 FROM ubuntu:20.04
-LABEL maintainer="Kesava Varma<kesava.varma@springml.com>"
-LABEL maintainer="Rakesh <rakesh.madadi@springml.com>"
 
 RUN apt-get update
 RUN apt-get -y install python3.8 
